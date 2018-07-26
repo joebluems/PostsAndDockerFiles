@@ -1,0 +1,17 @@
+files for posting to ML API's
+---------------------------
+iris.csv - data for passing to models
+d1.jpg - image for testing
+deer.jpg - image for testing
+pIris.py - Usage: > python pIris.py  <IP> <PORT>
+pMxnet.py - Usage: > python pMxnet.py  <IMAGE> <IP> <PORT> 
+
+contains docker files (create image with "docker build .")
+--------------------
+./BASIC 
+./ML
+
+alternatively you could use these commands:
+-------------------------------------------
+> docker pull joebluems/first_container
+> docker pull joebluems/deployml
